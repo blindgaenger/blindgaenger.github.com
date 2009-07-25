@@ -1,35 +1,110 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="blindgaenger" />
+    <meta name="keywords" content="blindgaenger, blindgänger, homepage, github">
+    <title>when you don't know where you @ &mdash; blindgaenger.github.com</title>
+    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <style type="text/css">
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+      -moz-background-clip: border;
+      -moz-background-inline-policy: continuous;
+      -moz-background-origin: padding;
+      background: transparent none repeat scroll 0 0;
+      border: 0 none;
+      font-size: 100%;
+      margin: 0;
+      outline-color: -moz-use-text-color;
+      outline-style: none;
+      outline-width: 0;
+      padding: 0;
+      vertical-align: baseline;
+    }
 
-  <title>blindgaenger</title>
-
-  <style type="text/css">
     body {
-      font-family: mono;
-      color: #fff;
-      background: #000;
-	    text-align: center;
+      -moz-background-clip: border;
+      -moz-background-inline-policy: continuous;
+      -moz-background-origin: padding;
+      background:#000000 url(images/background.png) repeat scroll 0 0;
+      color: #ffffff;
+
+      font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,sans-serif;
+      font-size: 15px;
+      line-height: 1em;
+      text-align: center;
     }
-    h1 {
-      font-size: 36pt;
+
+    #backlight {
+      -moz-background-clip: border;
+      -moz-background-inline-policy: continuous;
+      -moz-background-origin: padding;
+      background: transparent url(images/backlight.png) no-repeat scroll center -125px;
+      width: 100%;
+      height: 700px;
     }
-    a {
-      color: #fff;
-      text-decoration: none;
+
+    #content {
+      margin: 0 auto;
+      padding: 150px 0 350px 0;
+      text-align: center;
+      width: 600px;
     }
-    img {
-      border-width: 0;
+
+    ul {
+      list-style-image: none;
+      list-style-position: outside;
+      list-style-type: none;
     }
-  </style>
-</head>
-<body>
-  <h1><a href="http://github.com/blindgaenger">blindgaenger</a></h1>
-  <div><a href="http://www.kopimi.com/kopimi"><img src="images/copyme.gif" alt="copyme"></a></div>
-  <div><a href="http://github.com/blindgaenger"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub" /></a></div>
-</body>
+
+    li {
+      display: block;
+      float: left;
+      width: 50%;
+    }
+
+    a .button {
+      -moz-border-radius: 1em;
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      background-repeat: no-repeat;
+      background-color: #000000;
+      color: white;
+      padding: 0.5em;
+      margin: 0.5em;
+      font-size: 2em;
+      max-width: 250px;
+      text-align: center;
+    }
+
+    a:hover .button {
+      opacity: 1.0;
+      filter: alpha(opacity=100);
+      background-color: #127DD0;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="backlight">
+      <div id="content">
+        <ul>
+          <li>
+            <a href="http://blindgaenger.net">
+              <img src="images/homepage.png" alt="blindgaenger@net" />
+              <div class="button">Homepage</div>
+            </a>
+          </li>
+          <li>
+            <a href="http://github.com/blindgaenger">
+              <img src="images/github.png" alt="blindgaenger@github" />
+              <div class="button">Github</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
 
